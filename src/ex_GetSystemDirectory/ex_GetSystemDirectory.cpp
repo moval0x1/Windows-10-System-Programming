@@ -6,7 +6,7 @@
 
 int main()
 {
-    ; WCHAR path[MAX_PATH];
+    WCHAR path[MAX_PATH];
     ::GetSystemDirectory(path, MAX_PATH);
 
     // %ws indicate it's a UNICODE string
